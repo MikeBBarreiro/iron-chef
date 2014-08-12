@@ -2,6 +2,18 @@ extends ../shared/template
 block content
   h2 Home Page!
 
+  form(method='post', action='/recipes')
+    input(name='name', type='text', placeholder='Chicken', autofocus=true)
+    input(name='photo', type='text', placeholder='http://')
+    input(name='ingredients', type='text', placeholder='enter ingredients')
+    label Directions
+    textarea(name='directions')
+    button Add Recipe
+  #recipes
+    each recipe in recipes
+      include recipe
+
+
 block scripts
   script(src='/js/user/home.js')
 

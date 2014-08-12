@@ -6,7 +6,36 @@
 }
 
 body{
-  background-image: url(/img/node.png);
-  background-size: cover;
+  background-image: url(/img/Subtle-Background.jpg);
+  background-size: 100%;
 }
 
+#headerFood {
+  text-align: center;
+}
+
+#mainDiv {
+  border: 1px solid black;
+  height: 350px;
+  width: 200px;
+  display: inline-block;
+  margin: 25px;
+  margin-top: 10px;
+  float: center;
+}
+
+#imgDiv {
+  border: 1px solid black;
+  height: 150px;
+  width: 200px;
+  margin-bottom: -1px;
+  z-index: 1;
+}
+
+#directions {
+  padding: 5px;
+}
+
+#recipes {
+  position: relative;
+}

@@ -1,7 +1,7 @@
 ## name of project
 ### Code Badges
 [![Build Status](https://travis-ci.org/MikeBBarreiro/iron-chef.svg?branch=master)](https://travis-ci.org/MikeBBarreiro/iron-chef)
-coverage status icon
+[![Coverage Status](https://img.shields.io/coveralls/MikeBBarreiro/iron-chef.svg)](https://coveralls.io/r/MikeBBarreiro/iron-chef?branch=master)
 
 ### About
 A recipe applications that shows an image of the entree and gives a <ul> of the ingredients, and then finaly a description of the food. All built using node.js, jquerry.js, jade and css3.

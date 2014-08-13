@@ -3,9 +3,15 @@
 
   $(document).ready(function(){
     $('form').submit(addRecipe);
-    $('.blue').click(hide);
+    $('button.blue').click(hide);
     $('#show').click(show);
+    $('#recipes').on('click', '#delete', delRecipe);//this is called event delegation, this activates the delet button.
   });
+
+  function delRecipe(){
+    alert('You deleted a Recipe');
+  }
+
   function addRecipe(e){
     console.log('adding new recipe');
     console.log(e);

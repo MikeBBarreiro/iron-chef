@@ -27,7 +27,7 @@ body{
 #imgDiv {
   border: 1px solid black;
   height: 150px;
-  width: 200px;
+  width: 199px;
   margin-bottom: -1px;
   z-index: 1;
 }
@@ -37,7 +37,8 @@ body{
 }
 
 #recipes {
-  position: relative;
+  position: absolute;
+  top: 300px;
 }
 
 form{
@@ -63,6 +64,12 @@ form input, form button, form textarea{
   position: absolute;
   margin-top: -30px;
   margin-left: 225px;
+}
+
+#delete {
+  position: relative;
+  left: 165px;
+  top: 50px;
 }
 
 h1 {

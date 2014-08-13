@@ -4,7 +4,7 @@
 coverage status icon
 
 ### About
-write a description about your project
+A recipe applications that shows an image of the entree and gives a <ul> of the ingredients, and then finaly a description of the food. All built using node.js, jquerry.js, jade and css3.
 
 ### Models
 ```

@@ -2,6 +2,7 @@ extends ../shared/template
 block content
   h2 Home Page!
 
+  button.blue Hide Form
   form(method='post', action='/recipes')
     input(name='name', type='text', placeholder='Chicken', autofocus=true)
     input(name='photo', type='text', placeholder='http://')

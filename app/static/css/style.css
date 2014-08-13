@@ -39,3 +39,36 @@ body{
 #recipes {
   position: relative;
 }
+
+form{
+  left: 100px;
+  margin: 20px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #111111;
+}
+
+form input, form button, form textarea{
+  width: 350px;
+  display: block;
+}
+
+.blue {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+#show {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 225px;
+}
+
+h1 {
+ text-align: center;
+}
+
+nav {
+  text-align: center;
+}

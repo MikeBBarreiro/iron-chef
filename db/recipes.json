@@ -1,0 +1,23 @@
+{
+  "_id":{"$oid":"000000000000000000000001"},
+  "name":"BBQ Chicken",
+  "photo":"http://www.yourkitchenstore.com/images/categories/header-images/bbq.png",
+  "ingredients":["Chicken","BBQ of your choice", "season"],
+  "directions":"Smuther chickin in BBQ and season, and Cook at 350 for 1 hour"
+}
+
+{
+  "_id":{"$oid":"000000000000000000000002"},
+  "name":"Spaghetti",
+  "photo":"http://bridgesfordeafandhh.org/images/uploads/Spaghetti.png",
+  "ingredients":["noodles","sauce", "meatballs"],
+  "directions":"boil noodles, and cook meatballs in sauce"
+}
+
+{
+  "_id":{"$oid":"000000000000000000000003"},
+  "name":"Sushi",
+  "photo":"http://www.wpclipart.com/food/oriental/sushi/sushi.png",
+  "ingredients":["rice","seaweed", "vetiables of choice"],
+  "directions":"top seaweed wrap with rice the cover vetiables in middle of wrap and then roll"
+}

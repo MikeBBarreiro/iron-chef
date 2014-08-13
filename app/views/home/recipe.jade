@@ -1,0 +1,7 @@
+#mainDiv
+  h2#headerFood= recipe.name
+  #imgDiv(style="background-image: url('#{recipe.photo}'); background-size: cover;")
+  ul
+    each ingredient in recipe.ingredients
+      li= ingredient
+  #directions= recipe.directions

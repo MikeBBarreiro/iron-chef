@@ -1,6 +1,6 @@
 ## name of project
 ### Code Badges
-build status icon
+[![Build Status](https://travis-ci.org/MikeBBarreiro/iron-chef.svg?branch=master)](https://travis-ci.org/MikeBBarreiro/iron-chef)
 coverage status icon
 
 ### About
@@ -8,10 +8,10 @@ write a description about your project
 
 ### Models
 ```
-Model 1
-prop-a
-prop-b
-.classMethod-c
+Recipe
+constructor
+.create
+.all
 #instanceMethod-d
 ```
 
@@ -35,7 +35,7 @@ $ npm test
 ```
 
 ### Contributors
-- [Chyld Medford](https://github.com/chyld)
+- [Michael Barreiro](https://github.com/MikeBBarreiro)
 
 ### License
 [MIT](LICENSE)

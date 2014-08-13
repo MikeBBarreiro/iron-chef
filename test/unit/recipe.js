@@ -25,7 +25,7 @@ describe('Recipe', function(){
 
   describe('constructor', function(){
     it('should create a new Recipe object', function(){
-      var r = {name:'BBQ', photo:'URL', ingredients:['Chickin', 'BBQ', 'season'], directions:'Smuther chicken in BBQ and season, and Cook at 350 for 1 hour'},
+      var r = {name:'BBQ', photo:'URL', ingredients:'Chickin, BBQ, season', directions:'Smuther chicken in BBQ and season, and Cook at 350 for 1 hour'},
           bbq = new Recipe(r);
 
       expect(bbq).to.be.instanceof(Recipe);
@@ -38,7 +38,7 @@ describe('Recipe', function(){
 
   describe('.create', function(){
     it('should find and create a recipe', function(done){
-      var r = new Recipe({name:'BBQ', photo:'URL', ingred:'Chickin, BBQ, season', direc:'Smuther chicken in BBQ and season, and Cook at 350 for 1 hour'});
+      var r = {name:'BBQ', photo:'URL', ingredients:'Chickin, BBQ, season', directions:'Smuther chicken in BBQ and season, and Cook at 350 for 1 hour'};
 
       Recipe.create(r, function(err, recipe){
         expect(recipe._id).to.be.instanceof(Mongo.ObjectID);

@@ -28,10 +28,10 @@
 
   function hide(){
     $('form').fadeOut();
-}
+  }
   function show(){
     $('form').fadeIn();
-}
+  }
 
 })();
 
